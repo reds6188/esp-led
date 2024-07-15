@@ -2,10 +2,10 @@
 
 Led::Led(int pin, bool inverted) {
 	_pin = pin;
-	_inverted = inverted
+	_inverted = inverted;
 
 	pinMode(_pin, OUTPUT);
-	digitalWrite(_pin, (_inverted ? HIGH : LOW);
+	digitalWrite(_pin, (_inverted ? HIGH : LOW));
 }
 
 void Led::set(void) {
